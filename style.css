@@ -1,7 +1,7 @@
 *{
     margin: 0;padding: 0;
     box-sizing: border-box;
-  
+    margin: 5px 0;
 }
 html{
     scroll-behavior: smooth;
@@ -29,10 +29,8 @@ button{
     font-family: 'Open Sans', sans-serif;
     padding: 1rem 2rem;
     font-size: 18px;
-    border: none;
-    border-radius: 20px;
-    background-color: #e07e45;
-    color: white;
+    border-radius: 5px;
+    border:1px solid dimgray;
     transition: all 0.4s;
 
 }
@@ -58,9 +56,9 @@ header nav .left-side{
     align-items: center;
     text-align: right;  
 }
-header nav .left-side h1{
+/* header nav .left-side h1{
     color:  #EE5337;
-}
+} */
 
 header nav .left-side .menu{
 
@@ -103,7 +101,7 @@ header nav .left-side .menu li a:hover{
    transition: all 0.3s;
    border-radius: 10px;
    font-size:18px ;
-   color:  white;
+   color:  #473D46;
    
  }
  header .right-side .btn a:hover{
@@ -113,6 +111,7 @@ header nav .left-side .menu li a:hover{
  }
  header .right-side .btn button:hover{
      background-color: tomato;
+     color: white;
      cursor: pointer;
  }
  
@@ -124,7 +123,7 @@ header nav .left-side .menu li a:hover{
     content: "";
     width: 100%;
     height: 655px;
-    background-image: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%); 
+    /* background-image: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%);  */
     opacity: 0.7;
     z-index: -1;
     
@@ -132,7 +131,6 @@ header nav .left-side .menu li a:hover{
  
 .main-hero-sec{
     margin-top: 20px;
-    /* padding: 0 5rem; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -144,7 +142,7 @@ header nav .left-side .menu li a:hover{
 .main-hero-sec h1{
     font-size:60px;
     margin-bottom: 30px;
-    color: white;
+    color: #EE5337;
 }
 .main-hero-sec  p{
     margin-bottom: 40px;
@@ -157,14 +155,16 @@ header nav .left-side .menu li a:hover{
     background-image: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
     cursor: pointer;
     margin-right: 20px;
+    border: none;
 }
 .main-hero-sec .btn1:hover{
     background-image: linear-gradient(to right, #f67831 0%, #eb3c5a 100%), linear-gradient(to right, #f67831 0%, #eb3c5a 100%);
+    color: white
 }
 .main-hero-sec .btn2:hover{
     background-color: tomato;
     cursor: pointer;
-   
+    color: white;
     
   
 }
